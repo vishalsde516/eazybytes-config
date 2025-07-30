@@ -1,5 +1,8 @@
 build:
   version: "3.0"
+spring:
+  profiles:
+    active: prod
 
 accounts:
   message: "Welcome to EazyBank accounts related docker APIs "
